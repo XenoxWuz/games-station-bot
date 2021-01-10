@@ -1,0 +1,24 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "This is my Discord Bot",
+  "main": "app.js",
+  "dependencies": {
+    "discord-player": "^3.2.0",
+    "discord.js": "^12.2.0",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "googleapis": "^66.0.0",
+    "image-search-google": "^1.3.0",
+    "merge-options": "^3.0.4",
+    "node-fetch": "^2.6.1",
+    "spotify-url-info": "^2.2.0",
+    "ytdl-core": "^2.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josua",
+  "license": "ISC"
+}

@@ -1,0 +1,150 @@
+{
+    "234395307759108106": {
+        "username": "Groovy",
+        "messagesSent": 374,
+        "music": {
+            "play": 0,
+            "pause": 0,
+            "stop": 0,
+            "shuffle": 0,
+            "skip": 0,
+            "repeat": 0
+        },
+        "mute": 0,
+        "unmute": 0,
+        "coins": 24588.364,
+        "join": 1609505503747,
+        "currentChannel": "AmongUs"
+    },
+    "155371605361426434": {
+        "username": "X3nox_",
+        "messagesSent": 17,
+        "music": {
+            "play": 5,
+            "pause": 0,
+            "stop": 3,
+            "shuffle": 2,
+            "skip": 1,
+            "repeat": 1
+        },
+        "mute": 0,
+        "unmute": 0,
+        "coins": 24588.420000000002,
+        "join": 1609505503569,
+        "currentChannel": "AmongUs"
+    },
+    "704012197818269746": {
+        "username": "GamesBot",
+        "messagesSent": 18,
+        "music": {
+            "play": 0,
+            "pause": 0,
+            "stop": 0,
+            "shuffle": 0,
+            "skip": 0,
+            "repeat": 0
+        },
+        "mute": 0,
+        "unmute": 0
+    },
+    "690665657045614592": {
+        "username": "TG",
+        "messagesSent": 9,
+        "music": {
+            "play": 4,
+            "pause": 0,
+            "stop": 0,
+            "shuffle": 0,
+            "skip": 0,
+            "repeat": 0
+        },
+        "mute": 0,
+        "unmute": 0,
+        "coins": 271.131,
+        "join": 0,
+        "currentChannel": "IchBinVerfügbar"
+    },
+    "673937637211635722": {
+        "username": "rob19",
+        "messagesSent": 60,
+        "music": {
+            "play": 45,
+            "pause": 0,
+            "stop": 2,
+            "shuffle": 0,
+            "skip": 3,
+            "repeat": 0
+        },
+        "mute": 0,
+        "unmute": 0,
+        "coins": 15466.039,
+        "join": 1609501965004,
+        "currentChannel": "LOL"
+    },
+    "695688612834050120": {
+        "username": "Mel456",
+        "messagesSent": 3,
+        "coins": 15466.028999999999,
+        "music": {
+            "play": 2,
+            "pause": 0,
+            "stop": 0,
+            "shuffle": 1,
+            "skip": 0,
+            "repeat": 0
+        },
+        "mute": 0,
+        "unmute": 0,
+        "join": 1609501965224,
+        "currentChannel": "LOL"
+    },
+    "285712574828249088": {
+        "username": "Xenox",
+        "messagesSent": 66,
+        "coins": 665355.2509999999,
+        "music": {
+            "play": 0,
+            "pause": 0,
+            "stop": 0,
+            "shuffle": 0,
+            "skip": 0,
+            "repeat": 0
+        },
+        "join": 0,
+        "currentChannel": "IchBinVerfügbar",
+        "mute": 0,
+        "unmute": 0
+    },
+    "550737379460382752": {
+        "username": "Zoe",
+        "messagesSent": 3,
+        "coins": 0,
+        "music": {
+            "play": 0,
+            "pause": 0,
+            "stop": 0,
+            "shuffle": 0,
+            "skip": 0,
+            "repeat": 0
+        },
+        "mute": 0,
+        "unmute": 0
+    },
+    "445627191607164939": {
+        "username": "Votig23",
+        "messagesSent": 2,
+        "coins": 15465.988,
+        "music": {
+            "play": 0,
+            "pause": 0,
+            "stop": 0,
+            "shuffle": 0,
+            "skip": 2,
+            "repeat": 0
+        },
+        "join": 1609501964663,
+        "currentChannel": "LOL",
+        "mute": 0,
+        "unmute": 0
+    }
+}

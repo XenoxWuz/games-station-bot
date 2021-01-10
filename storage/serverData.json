@@ -1,0 +1,46 @@
+{
+    "704017669812256809": {
+        "name": "GamerStation",
+        "memberCount": 30,
+        "voiceChannelCount": 24,
+        "voiceChannels": [
+            "IchBinVerfügbar",
+            "SportMachen",
+            "DBD",
+            "TestKanal",
+            "LOL-Team2",
+            "GTA",
+            "CS:GO",
+            "Test1",
+            "LOL",
+            "Allgemein",
+            "tacken",
+            "AmongUs",
+            "Minecraft",
+            "Test2",
+            "EEEsn",
+            "StartGroovy",
+            "AFK",
+            "DiplomatieRaum",
+            "RocketLeague",
+            "AusflugPlanung",
+            "Valorant",
+            "CIV6",
+            "MeetAndGreet",
+            "Among us"
+        ],
+        "textChannelCount": 10,
+        "textChannels": [
+            "gamerstationwünsche",
+            "lol_wetten",
+            "admin-room",
+            "gamerstationbotwünsche",
+            "lol-bot",
+            "musicman",
+            "tesla",
+            "lol-bot-setup",
+            "Allgemein",
+            "schokoeis"
+        ]
+    }
+}
