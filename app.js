@@ -72,17 +72,6 @@ function help (user) {
     }
 }
 
-async function runSearch(options) {
-    console.log(options);
-    const res = await customsearch.cse.list({
-        cx: options.cx,
-        q: options.q,
-        auth: options.apiKey,
-    });
-    console.log(res.data);
-    return res.data;
-}
-
 bot.on('message', async message => {
 
 
@@ -96,15 +85,18 @@ bot.on('message', async message => {
         return;
     }
 
-    console.log(message.content)
-
-    if (msg === prefix + 'PING') {
-        message.channel.send('Pong!')
-    }
-
     if (msg.includes('noob') || msg.includes('Noob')) {
         message.delete();
         message.author.send('Das Wort "NOOB" ist geblockt.')
+    }
+
+    if (msg.includes('arsch') || msg.includes('Arsch')) {
+        message.delete();
+        message.author.send('Das Wort "Arsch" ist geblockt.')
+    }
+
+    if (msg === prefix + 'ping') {
+        message.channel.send('Pong!')
     }
 
     if (!userData[sender.id]) userData[sender.id] = {
@@ -205,17 +197,11 @@ bot.on('message', async message => {
         }
     }
 
-    /*if (msg.includes("tesla")) {
-        /*const options = {
-            q: process.argv[2],
-            apiKey: process.argv[3],
-            cx: process.argv[4],
-        };
-        runSearch(options).catch(console.error);*
-        const client = new imageSearch('8666771e4d75cefac', 'AIzaSyA7okrji3twEzFgGvrnJabIl3ATXl5osvs');
-        const options = { page: 1 };
-        client.search('Tesla', options);
-    }*/
+    if (msg.startsWith(prefix + 'allstats')) {
+        if (sender.id === '285712574828249088') {
+            message.channel.send(userData);
+        }
+    }
 
     fs.writeFile('storage/userData.json', JSON.stringify(userData, null, 4), (err) => {
         if (err) console.error(err);
