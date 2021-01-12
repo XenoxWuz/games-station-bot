@@ -76,6 +76,7 @@ bot.on('message', async message => {
 
 
     userData = JSON.parse(fs.readFileSync('storage/userData.json', 'utf8'));
+    userDataJson = JSON.stringify(userData, null, 2);
 
     var sender = message.author;
     var msg = message.content;
@@ -199,7 +200,7 @@ bot.on('message', async message => {
 
     if (msg.startsWith(prefix + 'allstats')) {
         if (sender.id === '285712574828249088') {
-            message.channel.send(userData);
+            message.channel.send("''json\n" + userDataJson + "'''");
         }
     }
 
