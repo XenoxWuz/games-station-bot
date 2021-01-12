@@ -314,5 +314,4 @@ function findXenox(item) {
     return item.user.username === 'Xenox'
 }
 
-//bot.login('NzI0MzQ1MjE4NTY4MDI4MTYw.Xu-2Kw.XORYB8SF_HtGMM3G3XEfwduUwGo')
-bot.login('NzA0MDEyMTk3ODE4MjY5NzQ2.XqYIgw.lSAEd22siEIIffMj2sGpJtrgvoQ')
+bot.login(process.env.BOT_TOKEN);
